@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12% ;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: index 100; 
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
+.logo:hover{
+    color:powderblue;
+    transform:scale(1.1);
+}
+span{
+    color:orangered
+}
+.navbar a{
+    font-size: 18px;
+    color:white;
+    font-weight: 500px;
+    margin:0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.5 ease;
+
+}
+.navbar a:hover,
+.navbar a:active{
+    color:orangered;
+    border-bottom: 3px solid orangered;
+}
+.contact{
+    padding:10px 28px;
+    background-color: white;
+    color:black;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.contact:hover{
+    background-color: orangered;  
+    color:white;
+
+    
+}
+.view{
+    padding:10px 28px;
+    background-color: white;
+    color:black;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.view:hover{
+    background-color: orangered;  
+    color:white;
+
+    
+}
+.home {
+    width: 100%;
+    min-height: 100vh; /* Corrected from 100hv to 100vh */
+    background-color: white;
+    display: flex; /* Changed from font-display to display */
+    align-items:center;
+    justify-content: center; /* Added to center the content horizontally */
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width:900px;
+}
+
+.home-content h3 {
+    font-size: 40px;
+}
+
+.home-content h1 {
+    font-size: 58px;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 20px;
+    margin: 2px 0 30px;
+}
+.btn{
+    width:250px;
+    display:flex;
+    gap:2em;
+}
+.like{
+    padding:16px 28px;
+    background-color: rgb(54, 141, 152);
+    color:white;
+    font-size:19px;
+    border-radius:18px;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition:0.3 ease;
+}
+.img img{
+    border-radius:50%;
+    width:250px;
+}
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    width:50px;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12% 8%;
+    gap:10em;
+    background-color: black;
+}
+.about-img img{
+    position:relative;
+    width:400px;
+    box-shadow:0 0 25px orangered,
+               0 0 20px orangered;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align:left;
+    color:white;
+    font-size: 39px;
+}
+.about-content h3{
+    font-size:58px;
+    color:white;
+}
+.about-content p{
+    color:white;
+    font-size:20px;
+    margin: 2em;
+}
+/* Styles for Education section */
+.education {
+    background-color:black;
+    padding: 100px 0;
+}
+
+.education-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-edu,
+.abt-clg {
+    margin-bottom: 40px;
+}
+
+.about-edu h2,
+.abt-clg h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-edu p,
+.abt-clg p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Styles for Skills section */
+.skills {
+    background-color:black;
+    padding: 100px 0;
+}
+
+.skills-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.skills-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-content li {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    margin-top: 30px;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color:bisque;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.contact {
+    text-align: center;
+}
+
+.contactt-content {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color:black;
+}
+
+.contactt-content h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #333;
+}
+
+.contactt-content p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.contactt-content ul li {
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
